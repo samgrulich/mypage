@@ -1,13 +1,14 @@
 <script lang="ts">
     export let href: string|undefined = undefined;
+    export let size: number = 80;
 </script>
 
 <style>
     div {
         padding: 0;
-        height: 90px;
+        height: calc(var(--size) * 1px);
         width: fit-content;
-        border-radius: 2rem;
+        border-radius: 1rem;
         background-color: #f0f0f0;
     }
     a {
@@ -18,7 +19,7 @@
     }
 </style>
 
-<div>
+<div style='--size:{size}'>
 <a {href}>
     <slot/>
 </a>

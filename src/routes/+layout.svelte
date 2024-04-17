@@ -1,6 +1,7 @@
 <script>
 	import Badge from "$lib/components/badge.svelte";
 	import GithubBadge from "$lib/components/badges/githubBadge.svelte";
+	import MailBadge from "$lib/components/badges/mailBadge.svelte";
 
 </script>
 <svelte:head>
@@ -36,6 +37,14 @@
     }
     .slotContainer {
         padding: 1rem;
+        min-height: 80vh;
+    }
+    footer {
+        background-color: #fff;
+        border-radius: 3rem 3rem 0 0;
+        padding: 2rem;
+        display: flex;
+        justify-content: center;
     }
 </style>
 
@@ -54,7 +63,6 @@
 </div>
 
 <footer>
-    <hr/>
-    <p>Footer</p>
-    <GithubBadge href="https://github.com/samgrulich"></GithubBadge>
+    <GithubBadge href="https://github.com/samgrulich" size={60}></GithubBadge>
+    <MailBadge size={60}></MailBadge>
 </footer>
