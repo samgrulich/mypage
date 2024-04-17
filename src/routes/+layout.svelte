@@ -39,7 +39,7 @@
         min-height: 80vh;
     }
     footer {
-        background-color: #fff;
+        /* background-color: #fff; */
         border-radius: 3rem 3rem 0 0;
         padding: 2rem;
         display: flex;
@@ -56,6 +56,10 @@
     }
     li:hover a {
         color: rgba(0, 200, 200, 0.7);
+    }
+    .footerBadges {
+        display: flex;
+        gap: 1rem;
     }
 </style>
 
@@ -75,7 +79,9 @@
 </div>
 
 <footer>
+<div class="footerBadges">
     <GithubBadge href="https://github.com/samgrulich" size={60}></GithubBadge>
-    <MailBadge size={60}></MailBadge>
+    <MailBadge to="sam@supergrulisi.cz" size={60}></MailBadge>
+</div>
 </footer>
 </div>
