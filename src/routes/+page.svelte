@@ -20,9 +20,9 @@
 </style>
 
 <div class="centered" style:color="#fff">
-    <h1 class="greeting">Welcome</h1>
+    <h1 class="greeting">Ciao!</h1>
 </div>
 <ul>
-    <li><Card name="Projects" href="/projects">FU</Card></li>
-    <li><Card name="About me" href="/about">Yipee</Card></li>
+    <li><Card name="Projects" href="/projects">List of projects I have completed.</Card></li>
+    <li><Card name="About me" href="/about">possimus aliquam ipsum aspernatur</Card></li>
 </ul>

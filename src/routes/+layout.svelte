@@ -1,5 +1,4 @@
 <script>
-	import Badge from "$lib/components/badge.svelte";
 	import GithubBadge from "$lib/components/badges/githubBadge.svelte";
 	import MailBadge from "$lib/components/badges/mailBadge.svelte";
 
@@ -36,7 +35,7 @@
         text-decoration: underline;
     }
     .slotContainer {
-        padding: 1rem;
+        padding: 6rem 0 0 0;
         min-height: 80vh;
     }
     footer {
@@ -46,8 +45,21 @@
         display: flex;
         justify-content: center;
     }
+    .masterWrapper {
+        background-color: #7ab9f4;
+        padding: 1rem 0 0 0;
+        background: radial-gradient(ellipse at top,    rgba(202,185,244,1) 0%, rgba(60,212,255,0) 100%),
+                    radial-gradient(ellipse at bottom, rgba(202,185,244,1) 0%, rgba(60,212,255,0) 100%);
+    }
+    a {
+        transition: all ease-in-out 0.1s;
+    }
+    li:hover a {
+        color: rgba(0, 200, 200, 0.7);
+    }
 </style>
 
+<div class="masterWrapper">
 <header>
     <nav class="menuNav">
         <ul class="menuUL">
@@ -66,3 +78,4 @@
     <GithubBadge href="https://github.com/samgrulich" size={60}></GithubBadge>
     <MailBadge size={60}></MailBadge>
 </footer>
+</div>

@@ -9,7 +9,6 @@
     }
 </style>
 
-<h2>Hallo mallo</h2>
 <ul>
 <li><Card name="no">FU</Card></li>
 <li><Card name="yes">Yipee</Card></li>
