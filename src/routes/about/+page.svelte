@@ -1,17 +1,6 @@
 <script lang="ts">
-	import Card from "$lib/components/card.svelte";
 </script>
 
-<style>
-    ul {
-        list-style-type: none;
-        padding: 0;
-    }
-</style>
-
-<ul>
-<li><Card name="no">FU</Card></li>
-<li><Card name="yes">Yipee</Card></li>
-<li><Card name="maybe">Oh no</Card></li>
-<li><Card>No text :(</Card></li>
-</ul>
+<div>
+    <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum, id quibusdam. Molestias quasi non quas nihil et perferendis omnis vero ad dicta? Obcaecati quidem rem porro deleniti sint voluptatem. Vitae.</span>
+</div>

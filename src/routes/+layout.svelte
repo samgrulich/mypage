@@ -21,11 +21,17 @@
         list-style: none;
         display: flex;
         gap: 1rem;
+        z-index: inherit;
     }
     .menuItem {
         padding: 0.5rem 1rem;
         border-radius: 3rem;
-        background-color: #f0f0f0;
+
+        /* From https://css.glass */
+        background: rgba(255, 255, 255, 0.7);
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.14);
+        backdrop-filter: blur(6.1px);
+        -webkit-backdrop-filter: blur(6.1px);
     }
     .menuItem a {
         text-decoration: none;
@@ -48,8 +54,14 @@
     .masterWrapper {
         background-color: #7ab9f4;
         padding: 1rem 0 0 0;
+        z-index: 10;
+        position: relative;
         background: radial-gradient(ellipse at top,    rgba(202,185,244,1) 0%, rgba(60,212,255,0) 100%),
                     radial-gradient(ellipse at bottom, rgba(202,185,244,1) 0%, rgba(60,212,255,0) 100%);
+    }
+    .footerBadges {
+        display: flex;
+        gap: 1rem;
     }
     a {
         transition: all ease-in-out 0.1s;
@@ -57,9 +69,11 @@
     li:hover a {
         color: rgba(0, 200, 200, 0.7);
     }
-    .footerBadges {
-        display: flex;
-        gap: 1rem;
+    header {
+        position:sticky; 
+        height: 50px; 
+        top: 0; 
+        z-index: 40;
     }
 </style>
 
