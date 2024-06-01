@@ -1,7 +1,6 @@
 <script lang="ts">
     export let name: string = "Unknown";
     export let href: string|undefined = undefined;
-    let isHovered = false;
 </script>
 
 <style>
@@ -88,9 +87,7 @@
     <h1>{name}</h1>
     <div class="slotContainer">
     <div class="imgContainer">
-        <img style="position: absolute; top:  0px; left:  0px; border-radius: 50%" src="https://i.pinimg.com/736x/91/09/79/910979a5f0722da3fccb2e1032dc3100.jpg" alt="" width=60px>
-        <img style="position: absolute; top: 45px; left: 70px; border-radius: 50%" src="https://i.kym-cdn.com/entries/icons/facebook/000/021/807/ig9OoyenpxqdCQyABmOQBZDI0duHk2QZZmWg2Hxd4ro.jpg" alt="" width=40px height=40px>
-        <img style="position: absolute; top: 80px; left: 10px; border-radius: 50%" src="https://i.ytimg.com/vi/KEkrWRHCDQU/maxresdefault.jpg" alt="" width=50px height=50px>
+    <slot name="imgs" />
     </div>
     <div class="childrenContainer">
     <slot />

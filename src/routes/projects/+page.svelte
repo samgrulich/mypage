@@ -19,23 +19,43 @@
 <div>
 <h1>2024</h1>
 Completed projects
+<Card name="Udplib">School project</Card>
+<Card name="This">Yipee</Card>
+In progress
+<Card name="Voxels">Oh no</Card>
+<h1>2023</h1>
+Completed projects
+<Card name="Nikola">School project</Card>
+<Card name="Fluid Renderer">Oh no</Card>
+Dead projects
+<Card name="Raytracer">Oh no</Card>
+<Card name="Sheets">Oh no</Card>
+<h1>2022</h1>
+Completed projects
 <ul>
-<li><Card name="Udplib">School project</Card></li>
-<li><Card name="This">Yipee</Card></li>
-<li><Card name="Voxels">Oh no</Card></li>
-<li><Card name="Nikola">School project</Card></li>
-<li><Card name="Fluid Renderer">Oh no</Card></li>
-<li>bevy instancing - contribution</li>
-<li>react-nextjs-snippets - contribution</li>
+<li>Simple terminal pong</li>
 <li>Spotifio 
     - ui
     - api
 </li>
-<li>Routes scanner</li>
 <li>Baka - auto</li>
 <li>Uzzi</li>
 <li>Rocnikova prace Ikt - school</li>
+</ul>
+<h1>2021</h1>
+<ul>
+Completed projects
 <li>Seminarka Ikt - school</li>
+<li>Rting 
+    - ui 
+    - api
+</li>
+</ul>
+Mentions
+<ul>
+<li>Routes scanner</li>
+<li>bevy instancing - contribution</li>
+<li>react-nextjs-snippets - contribution</li>
 <li>Cpp - excercise
     - Erwin
     - Cyra 
@@ -45,11 +65,5 @@ Completed projects
     - wow-Counter
     - Digiben
 </li>
-<li>Rting 
-    - ui 
-    - api
-</li>
-<li><Card>No text :(</Card></li>
 </ul>
-Mentions
 </div>

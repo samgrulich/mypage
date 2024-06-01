@@ -1,6 +1,7 @@
 <script lang="ts">
 	import Card from "$lib/components/card.svelte";
 	import Carousel from "$lib/components/carousel.svelte";
+
 </script>
 
 <style>
@@ -65,7 +66,7 @@
     <!-- <div><h1 class="greeting">Salut!</h1></div> -->
     <!-- <div><h1 class="greeting">Ahoj!</h1></div> -->
     <!-- <div><h1 class="greeting">Salut!</h1></div> -->
-    <div><h1 class="greeting">sup</h1></div>
+    <div><h1 class="greeting">Sam's Portfolio</h1></div>
 
     <div class="wordle">
         <Carousel style="top: 68vh" speed={2.1}>
@@ -95,9 +96,17 @@
 </div>
 <ul>
     <li><Card name="Projects" href="/projects">
+      <svelte:fragment slot="imgs">
+          <img style="position: absolute; top:  0px; left:  0px; border-radius: 50%" src="https://i.pinimg.com/736x/91/09/79/910979a5f0722da3fccb2e1032dc3100.jpg" alt="I'm in" width="60px">
+          <img style="position: absolute; top: 45px; left: 70px; border-radius: 50%" src="https://i.kym-cdn.com/entries/icons/facebook/000/021/807/ig9OoyenpxqdCQyABmOQBZDI0duHk2QZZmWg2Hxd4ro.jpg" alt="hackerman" width="40px" height="40px">
+          <img style="position: absolute; top: 80px; left: 10px; border-radius: 50%" src="https://i.ytimg.com/vi/KEkrWRHCDQU/maxresdefault.jpg" alt="literally me" width="50px" height="50px">
+      </svelte:fragment>
       <div class="button">Let's see <span class="arrow">-></span></div>
     </Card></li>
+
     <li><Card name="About me" href="/about">
+      <!-- <img style="position: absolute; top:  0px; left:  0px; border-radius: 1.5rem 0 0 1.5rem" src="IMG_6431.jpg" alt="Waiting for train in Switzerland" height="100%"> -->
+      <img style="position: absolute; top:  0px; left:  0px; border-radius: 1.5rem 0 0 1.5rem" src="IMG_0364.jpg" alt="Tour to Snezka" height="100%">
       <div class="button">Check it out <span class="arrow">-></span></div>
     </Card></li>
 </ul>

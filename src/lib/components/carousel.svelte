@@ -54,7 +54,7 @@
         overflow: hidden;
         width: 100%;
         height: 3.5rem;
-        background-color: rgba(0, 155, 255, 0.5);
+        background-color: rgba(0, 155, 255, 0.2);
         box-shadow: 0 3px 10px rgba(255, 255, 255, 0.1);
         padding-top: 0.5rem;
     }
