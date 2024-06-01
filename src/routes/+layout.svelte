@@ -66,6 +66,9 @@
     a {
         transition: all ease-in-out 0.1s;
     }
+    ul {
+        padding: 0;
+    }
     li:hover a {
         color: rgba(0, 200, 200, 0.7);
     }

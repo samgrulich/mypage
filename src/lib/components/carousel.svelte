@@ -53,7 +53,10 @@
         position: relative;
         overflow: hidden;
         width: 100%;
-        height: 10vh;
+        height: 3.5rem;
+        background-color: rgba(0, 155, 255, 0.5);
+        box-shadow: 0 3px 10px rgba(255, 255, 255, 0.1);
+        padding-top: 0.5rem;
     }
 
     @media (max-width: 600px) {
@@ -64,7 +67,7 @@
 </style>
 
 
-<div style={"position: relative;" + style} class="container">
+<div style="{style}" class="container">
 <div id="slot-{id}" class="slot" style="left: {xPos}px"> 
     <slot />
 </div>

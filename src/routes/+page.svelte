@@ -6,7 +6,7 @@
 <style>
     .centered {
         text-align: center;
-        margin: 15vh 0 52vh 0;
+        margin: 16vh 0 62vh 0;
     }
     .greeting {
         font-size: 4rem;
@@ -68,7 +68,7 @@
     <div><h1 class="greeting">sup</h1></div>
 
     <div class="wordle">
-        <Carousel style="top: 62vh" speed={4.2}>
+        <Carousel style="top: 68vh" speed={2.1}>
             <div>C--</div>
             <div>C</div>
             <div>Rust</div>
@@ -79,7 +79,7 @@
             <div style="width: 300px;">Arch, btw</div>
         </Carousel>
 
-        <Carousel style="top: 64vh" speed={-6.9}>
+        <Carousel style="top: 72vh" speed={-4.2}>
             <span>NextJS</span>
             <span>React</span>
             <span>TS</span>
@@ -89,9 +89,6 @@
             <span>Java</span>
             <span>OpenGL</span>
             <span>PHP</span>
-            <span>Homelab</span>
-            <span>Homelab</span>
-            <span>Homelab</span>
             <span>Homelab</span>
         </Carousel>
     </div>
